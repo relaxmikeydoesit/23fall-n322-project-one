@@ -28,7 +28,7 @@ React.useEffect(function() {
         //then do this
         <>
         <div className={styles.pokedex}> 
-        <Image size="medium" src={pokemonInfo.sprites.front_default} />
+        <Image size="medium" alt='image of Pokemon' src={pokemonInfo.sprites.front_default} />
         <p id={styles.positionedName}>Name:  {router.query.name}</p>
         {/* <Image size="medium" src={pokemonInfo.sprites.back_default} /> */}
         <p></p>

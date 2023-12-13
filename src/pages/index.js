@@ -9,7 +9,7 @@ export default function Home() {
   function getCard() {
     return (
       <Card className={styles.Card} centered>
-        <Image src='/harvey-smiles.jpg' size='medium' />
+        <Image src='/harvey-smiles.jpg' size='medium' alt='dog laying in grass'/>
         <Card.Content>
           <Card.Header>Harvey</Card.Header>
           <Card.Description>
@@ -38,14 +38,14 @@ export default function Home() {
   // The React component returns JSX.
   function getAnotherColumn() {
     return (
-      <Image src='/pikachu.jpg' size='medium' centered />
+      <Image src='/pikachu.jpg' size='medium' centered alt='Pikachu Pokemon card' />
     );
   }
 
   return (
     <>
-    <h1>Catch 'em All with PokeAPI</h1>;
-      <Image src='/pokemon-large.png' size='huge' centered/>
+    <h1>Catch &apos;em All with PokeAPI</h1>;
+      <Image src='/pokemon-large.png' alt='logo' size='huge' centered/>
       <Grid>
         <Grid.Row columns='equal'>
           <Grid.Column>
